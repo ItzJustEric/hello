@@ -1,0 +1,170 @@
+.hero{
+   display:flex;
+   flex-direction:column;
+   background-color: #1F2937;
+   align-items: center;
+   color: #F9FAF8;
+  
+   
+   
+
+}
+
+.hero-image{
+  justify-content: flex-end;  
+  display: flex;
+}
+
+
+
+.navbar{
+    display: flex;
+    color: #F9FAF8;
+    background-color: #1F2937;
+    padding: 20px 0px 20px 100px;
+    align-items: center;
+}
+
+.header-link {
+    display: flex;
+    margin-left: auto;
+    padding: 0px 100px 0px 0px;  
+}
+
+.header-link a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 10px;
+    font-family: 'Roboto', arial;
+}
+
+.header-logo img {
+    width: 84px;
+    height: 84px;
+    margin-right: auto;
+}
+
+
+
+.flex-container{
+    background-color:#1f2937;
+    display:flex;
+    font-family:Arial, Helvetica, sans-serif;
+    color:white;
+    
+    
+    
+}
+
+
+
+button{
+    background-color: rgb(23, 98, 196);
+    border-radius: 5px; 
+    height:35px;
+    width:150px;
+    padding:10px;
+
+}
+
+
+button:hover{
+    background-color: #71a3f3;
+    cursor:pointer
+}
+
+
+  body {
+    background-color: #FFFFFF;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: 'Roboto', arial;
+}
+
+.content-info img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 4px solid #3882F6;
+    border-radius: 15px;
+    margin: 5px 20px 0px 20px;
+    margin: 5px 20px 0px 20px;
+}
+
+.content{
+    justify-items: center;
+    align-items: center;
+    
+}
+
+
+.content-info{
+    display:flex;
+    align-items:center;
+    justify-items: center;
+    flex-wrap: wrap;
+}
+
+
+.quote{
+    background-color: #E5E7EB;
+}
+
+.quote p {
+    font-size: 36px;
+    font-style: italic;
+    color:#1F2937;
+}
+
+.quote  strong {
+    font-size: 36px;
+    font-style: italic;
+    color:#1F2937;
+}
+
+
+h4 {
+    color: #fff;
+    font-family: 'Roboto', arial;
+    padding: 0;
+    margin: 30px 0px 0px 50px;
+}
+
+.call-action{
+    background-color: rgb(20, 96, 194);
+    margin: 50px 200px;
+    padding: 10px 80px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    border-color: none;
+}
+
+.sign-up p {
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+
+.new-button:hover{
+    background-color: #71a3f3;
+    cursor: pointer;
+    justify-items: flex-end;
+}
+
+
+.footer {
+    background-color: #1F2937;
+    color: #fff;
+    font-family: 'Roboto', arial;
+    height: 50px;
+    text-align: center;
+}
+
+.footer p {
+    margin: 0;
+    line-height: 1.5;
+}
